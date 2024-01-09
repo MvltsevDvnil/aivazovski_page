@@ -7,3 +7,20 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--bg-main);
 }
+
+ul {
+    list-style: none; /* убрать точку у ненумерованного списка*/
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none; /* убираем декоративные линии у текста. Текст можно подчеркнуть, перечеркнуть или добавить линию над текстом.*/
+    color: unset;
+}
+    
+.container {
+    margin: 0 auto;
+    width: 970px;
+    padding: 0 10px; /* сверху и снизу - 0, по бокам - 10px */
+}

@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth; /* плавный скролл при переходе к нужной секции по нажатию на навигационную кнопку */
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;

@@ -22,7 +22,7 @@
     object-fit: cover;
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 480px) { /* При переопределении селекторов, сохранять их порядок, как в файле стиля*/
     .home {
         text-align: left;
     }

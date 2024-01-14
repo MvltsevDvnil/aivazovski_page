@@ -14,7 +14,7 @@
     width: 100%;
     /* max-width: 950px; */ /* это нужно?  */
     height: 655px;
-    object-fit: cover;
+    object-fit: cover; /* картинка без нарушения пропорций заполнит всю доступную область, обрезая всё ненужное. */
     margin: 0 0 30px;
 }
 
@@ -23,7 +23,7 @@
     font-weight: 500;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) { /* При переопределении селекторов, сохранять их порядок, как в файле стиля*/
     .history-section {
         padding: 50px 0 70px;
     }

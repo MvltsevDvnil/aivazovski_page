@@ -36,7 +36,7 @@
     margin: 0 auto; (сверху/ снизу - 0, по бокам - auto)
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 480px) { /* При переопределении селекторов, сохранять их порядок, как в файле стиля*/
     .about-subtitle-ru,
     .about-subtitle-en,
     .about-description-ru,
